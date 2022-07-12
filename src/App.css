@@ -17,7 +17,6 @@ button {
   border: 1px solid yellow;
   border-radius: 5px;
   padding: 8px 12px;
-  display: block;
 }
 
 button:hover {
@@ -238,5 +237,45 @@ table td{
 }
 
 
+@media screen and (max-width: 500px){
 
+[data-testid="name-filter"] {
+  text-align: center;
+}
+
+button{
+  max-width: 150px;
+  padding: 0px;
+}
+
+.options-container-inner{
+  
+}
+
+.options-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.input-name-container{
+  display: flex;
+  justify-content: center;
+}
+
+[data-testid="button-filter"] {
+  margin-bottom: 10px;
+}
+
+[data-testid="button-remove-filters"]{
+  margin: 0;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+.label-input-order{
+  flex-direction: column;
+  margin: 10px 0px;
+}
+  
+}
 
