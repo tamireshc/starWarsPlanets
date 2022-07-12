@@ -26,6 +26,9 @@ function Provider({ children }) {
       // console.log(dataAPI.results);
       // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
       dataAPI.results.map((item) => delete item.residents);
+      dataAPI.results.map((item) => delete item.created);
+      dataAPI.results.map((item) => delete item.url);
+      dataAPI.results.map((item) => delete item.edited);
       // console.log(dataAPI.results[0]);
       // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
       setData(dataAPI.results.sort((a, b) => {
@@ -67,25 +70,6 @@ function Provider({ children }) {
       setData(dataComplete);
     }
   };
-
-  // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-  // const sortDataAlfabetic = () => {
-  //   if (typeOrder === 'ASC') {
-  //     const dataSortAlfabetic = data.sort((a, b) => {
-  //       if (a.name > b.name) return 1;
-  //       if (a.name < b.name) return -ONE;
-  //       return 0;
-  //     });
-  //     setData(dataSortAlfabetic);
-  //   } else {
-  //     const dataSortAlfabetic = data.sort((a, b) => {
-  //       if (a.name < b.name) return 1;
-  //       if (a.name > b.name) return -ONE;
-  //       return 0;
-  //     });
-  //     setData(dataSortAlfabetic);
-  //   }
-  // };
 
   const sortDataNumeric = () => {
     if (typeOrder === 'ASC') {
