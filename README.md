@@ -6,5 +6,6 @@ As informações são controladas globalmente por estado através de context api
 Código autoral feito como proposta de projeto da _[Trybe](https://www.betrybe.com/)_. <Br>
 Para visualizar o deploy clique aqui -> _[Deploy](https://starwars-planets-six.vercel.app/)_
 
+![Captura de Tela 2022-10-27 às 22 19 54](https://user-images.githubusercontent.com/65035109/198435302-86a29163-991c-4915-a5cb-321004f18da0.png)
 
 
