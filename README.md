@@ -1,4 +1,4 @@
-# wallet :earth_americas:
+# starwarsPlanets :earth_americas:
 Página desenvolvida para estudos de React.<br>
 A aplicação busca dados na API dos planetas de Star Wars, para exibir seus detalhes em uma tabela.<Br>
 É possível buscar os planetas por seu nome, filtrá-los e ordená-los por suas caracteriscas.<Br>
